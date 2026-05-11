@@ -25,4 +25,6 @@
 
 ### Exporter
 
+* Add support for exporting Agent Bricks resources ([#5704](https://github.com/databricks/terraform-provider-databricks/issues/5704)).
+
 ### Internal Changes
