@@ -6,6 +6,8 @@
 
 ### New Features and Improvements
 
+* Add support for managing permissions of Agent Bricks resources ([#5708](https://github.com/databricks/terraform-provider-databricks/issues/5669)). Reverts [#5582](https://github.com/databricks/terraform-provider-databricks/pull/5708).
+
 ### Bug Fixes
 
 * Fix `databricks_library`, `databricks_share`, and `databricks_quality_monitor` failing to decode prior state with `Error decoding ... from prior state: missing expected {` after upgrading from v1.113.0 to v1.114.0 ([#5669](https://github.com/databricks/terraform-provider-databricks/issues/5669)). Reverts [#5582](https://github.com/databricks/terraform-provider-databricks/pull/5582).
